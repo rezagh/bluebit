@@ -1,0 +1,80 @@
+<!-- File Structure:
+your-website/
+├── index.html (Home page)
+├── services.html
+├── solutions.html
+├── about.html
+├── contact.html
+├── components/
+│   ├── header.html
+│   └── footer.html
+├── css/
+│   └── style.css
+└── js/
+    └── main.js
+-->
+
+<!-- ==================== index.html ==================== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechForge Solutions - Software Development Consulting</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header will be loaded here -->
+    <div id="header-container"></div>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Transform Your Business with Cutting-Edge Software Solutions</h1>
+                    <p>We partner with forward-thinking organizations to deliver scalable, innovative software solutions that drive growth and competitive advantage.</p>
+                    <div class="hero-buttons">
+                        <a href="services.html" class="btn-primary">Explore Services</a>
+                        <a href="contact.html" class="btn-secondary">Start Your Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-alt">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Why Choose TechForge?</h2>
+                    <p>We deliver exceptional results through our proven methodology, cutting-edge technologies, and deep industry expertise.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card floating">
+                        <div class="service-icon">🎯</div>
+                        <h3>Strategic Approach</h3>
+                        <p>We align technology solutions with your business objectives to ensure maximum ROI and long-term success.</p>
+                    </div>
+                    <div class="service-card floating">
+                        <div class="service-icon">⚡</div>
+                        <h3>Agile Delivery</h3>
+                        <p>Fast, iterative development cycles that deliver working software quickly while adapting to changing requirements.</p>
+                    </div>
+                    <div class="service-card floating">
+                        <div class="service-icon">🛡️</div>
+                        <h3>Enterprise Security</h3>
+                        <p>Built-in security best practices, compliance standards, and robust architecture for mission-critical applications.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer will be loaded here -->
+    <div id="footer-container"></div>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Set active page for navigation
+        document.addEventListener('DOMContentLoaded', () => setActivePage('home'));
+    </script>
+</body>
+</html>
