@@ -57,7 +57,7 @@ function handleFormSubmit(event) {
     const data = Object.fromEntries(formData);
     
     // Simulate form submission
-    alert('Thank you for your message! We\'ll get back to you within 24 hours.');
+    alert('Thank you for your message! We\'ll get back to you soon.');
     event.target.reset();
     
     // Here you would typically send the data to your server
