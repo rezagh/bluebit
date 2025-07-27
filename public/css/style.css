@@ -1,4 +1,16 @@
 
+/* LinkedIn icon next to leader name */
+.linkedin-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    text-decoration: none;
+}
+.linkedin-icon {
+    vertical-align: middle;
+    margin-left: 2px;
+}
+
 /* Services Page Styles */
 .services-container {
     display: flex;
