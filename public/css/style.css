@@ -763,10 +763,12 @@ footer {
 
 /* Product link label */
 .product-link {
+    display: inline-block;
     margin-top: 0.75rem;
     color: #667eea;
     font-weight: 600;
     font-size: 0.95rem;
+    text-decoration: underline;
 }
 
 /* Product card link reset */
