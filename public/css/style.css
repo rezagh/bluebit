@@ -749,7 +749,6 @@ footer {
     font-size: 1.15rem;
     color: #374151;
     background: #f7fafd;
-    border-left: 4px solid #667eea;
     border-radius: 12px;
     padding: 1.5rem 2rem;
     box-shadow: 0 2px 12px rgba(102, 126, 234, 0.06);
@@ -757,7 +756,6 @@ footer {
 }
 
 .page-intro--green {
-    border-left-color: #25D366;
     box-shadow: 0 2px 12px rgba(37, 211, 102, 0.06);
 }
 
@@ -779,9 +777,9 @@ a.service-box {
 }
 
 /* Page heading */
-.page-heading {
+h1.page-heading {
     text-align: center;
-    margin-top: 2rem;
+    margin: 2rem auto 0;
 }
 
 .whatsapp-btn {
